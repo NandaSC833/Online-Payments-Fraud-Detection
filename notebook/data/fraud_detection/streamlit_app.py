@@ -20,6 +20,7 @@ newbalanceOrig = st.number_input("New Balance (Origin)", min_value=0.0)
 oldbalanceDest = st.number_input("Old Balance (Destination)", min_value=0.0)
 newbalanceDest = st.number_input("New Balance (Destination)", min_value=0.0)
 
+
 # Prepare features
 if st.button("Predict Fraud"):
     type_val = type_map[type_input]
@@ -36,4 +37,4 @@ if st.button("Predict Fraud"):
         st.error(f"Fraud Detected! Probability: {prob:.2%}")
     else:
         st.success(f"Transaction Looks Safe. Probability of Fraud: {prob:.2%}")
-        
+
