@@ -36,4 +36,4 @@ if st.button("Predict Fraud"):
         st.error(f"Fraud Detected! Probability: {prob:.2%}")
     else:
         st.success(f"Transaction Looks Safe. Probability of Fraud: {prob:.2%}")
-
+        
