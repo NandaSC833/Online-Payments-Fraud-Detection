@@ -15,12 +15,19 @@ This project uses machine learning to detect fraudulent online payment transacti
 
 ## Project Structure
 Online-Payments-Fraud-Detection/
+
 ├── fraud_model.pkl # Trained model
+
 ├── scaler.pkl # Feature scaler
+
 ├── streamlit_app.py # Streamlit frontend
+
 ├── model_training.py # Training script
+
 ├── EDA.py # Exploratory Data Analysis
+
 ├── requirements.txt # Python dependencies
+
 └── README.md
 
 
