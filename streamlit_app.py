@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-model = joblib.load(r"C:\Users\Nanda Chowgle\project\online payment fraud detection\main\fraud_model.pkl")
-scaler = joblib.load(r"C:\Users\Nanda Chowgle\project\online payment fraud detection\main\scaler.pkl")
+model = joblib.load(r"C:\Users\Nanda Chowgle\project\online payment fraud detection\fraud_model.pkl")
+scaler = joblib.load(r"C:\Users\Nanda Chowgle\project\online payment fraud detection\scaler.pkl")
 
 st.title("💳 Online Payment Fraud Detection")
 st.write("Enter the transaction details below to check if it's potentially fraudulent.")
